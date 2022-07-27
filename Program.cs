@@ -1,10 +1,13 @@
+using Users;
+
 var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.Configure<ClusterSettings>(
-    builder.Configure.GetSection("Cluster0")
+//Connection with mongo DB
+builder.Services.Configure<UserDatabaseSettings>(
+    builder.Configuration.GetSection("Cluster0")
 );
-
+// suprit the injections construct
+builder.Services.AddSingleton<UserService>();
 // Add services to the container.
 
 builder.Services.AddControllers();

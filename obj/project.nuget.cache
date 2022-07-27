@@ -1,15 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "CWeBK8nVDFgdsvje++WflTirNDcXcI6fDp7s2z/xpgKsbry7oLM/XusaABwTMXhliycaFN/w/0QYJF+4Whk5MQ==",
+  "dgSpecHash": "TTyGiL1WUvdvzDEV2n7Dnsxo9aY/TJZrXkllEFIEpG87ZXHBthTc/apL7glaaD6v0qUY5w3WShUsII+yDsheAg==",
   "success": true,
-  "projectFilePath": "/mnt/c/Users/Fredson/Documents/Projetos/C#/ApiUserGit/Users/Users.csproj",
+  "projectFilePath": "C:\\Users\\Fredson\\Documents\\Projetos\\C#\\ApiUserGit\\Users\\Users.csproj",
   "expectedPackageFiles": [
-    "/home/fredson/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "/home/fredson/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/home/fredson/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/home/fredson/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/home/fredson/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/home/fredson/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Fredson\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\mongodb.bson\\2.17.0\\mongodb.bson.2.17.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\mongodb.driver\\2.17.0\\mongodb.driver.2.17.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\mongodb.driver.core\\2.17.0\\mongodb.driver.core.2.17.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.4\\mongodb.libmongocrypt.1.5.4.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Fredson\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
