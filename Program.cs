@@ -1,5 +1,5 @@
-using Users;
-
+using Users.Models;
+using Users.Service;
 var builder = WebApplication.CreateBuilder(args);
 
 //Connection with mongo DB

@@ -1,6 +1,9 @@
+
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using Users.Models;
 
+namespace Users.Service;
 public class UserService{
 
    // create collections mongo
@@ -9,9 +12,13 @@ public class UserService{
 
    // inicialize section of Conections with colections
    public UserService(IOptions<UserDatabaseSettings> clustersettings){
+   
       var mongoClient = new MongoClient(
-         clustersettings.Value.ConnectionsString
+        
+         clustersettings.Value.ConnectionString
+
       );
+    
       var mongoDatabase = mongoClient.GetDatabase(clustersettings.Value.DatabaseName);
       
       _usercollection = mongoDatabase.GetCollection<UserModel>(clustersettings.Value.TestColectionsName);
