@@ -25,5 +25,7 @@ public class UserService{
    }
 
    public async Task<List<UserModel>> GetTask() => await _usercollection.Find(_ => true).ToListAsync();
+   public async Task<UserModel>? GestTaskAsycId(string id) => await _usercollection.Find( x => id == x.Id).FirstOrDefaultAsync();
+   
 
 }

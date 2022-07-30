@@ -17,7 +17,18 @@ public class UsersController : Controller{
     [HttpGet]
     public async Task<List<UserModel>> GetTaskAsync() => await _userservice.GetTask();
 
+    [HttpGet("{id:length(24)}")]
 
+    public async Task<ActionResult<UserModel>> GetId(string id){
+        var valuesId = await _userservice.GestTaskAsycId(id);
+
+        if( valuesId is null){
+             return NotFound();
+        }
+           
+
+        return valuesId;
+    }
   
     
 }
