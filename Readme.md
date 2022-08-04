@@ -9,5 +9,5 @@ Este projeto é uma API usando C# .NET Core 6 e mongoDB, para adicionar, excluir
 
 ### Teste
 
-[!Screenshot](img/postman.png)
+[!Screenshot](/img/postman.png)
 
